@@ -5,7 +5,7 @@ OBJS=${CC_SOURCE:.cc=.o}
 TARGETS=${CC_SOURCE:.cc=}
 CXXFLAGS=-std=c++0x -ggdb3 -Wall -Wextra -pedantic -Weffc++
 LDFLAGS=
-LIBPATH=-Lnowhere
+LIBPATH=
 LIBRARIES=
 
 .PHONY: all clean
