@@ -3,7 +3,7 @@ CC=gcc
 CC_SOURCE=${shell find . -name "*.cc"}
 OBJS=${CC_SOURCE:.cc=.o}
 TARGETS=${CC_SOURCE:.cc=}
-CXXFLAGS=-std=c++0x -ggdb3 -Wall -Wextra -pedantic -Weffc++
+CXXFLAGS=-std=c++0x -ggdb3 -Wall -Wextra -pedantic -Weffc++ -Wno-unused-parameter
 LDFLAGS=
 LIBPATH=
 LIBRARIES=
