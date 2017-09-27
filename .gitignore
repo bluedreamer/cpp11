@@ -1,3 +1,6 @@
 *.[ado]
 bin/
 a.out
+.idea
+cmake-build-debug/
+ade.txt
