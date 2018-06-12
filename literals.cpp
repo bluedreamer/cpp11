@@ -1,9 +1,4 @@
 #include <iostream>
-#include <sstream>
-#include <vector>
-#include <map>
-#include <fstream>
-#include <string>
 
 namespace literals::temperature
 {
