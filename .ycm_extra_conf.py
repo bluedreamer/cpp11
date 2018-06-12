@@ -40,10 +40,9 @@ flags = [
 # For a C project, you would set this to 'c' instead of 'c++'.
 '-x',
 'c++',
-'-isystem',
-'/usr/include',
-'-isystem',
-'/usr/local/include',
+'-isystem', '/usr/include/c++/8/',
+'-isystem', '/usr/local/include',
+'-isystem', '/usr/include',
 '-I../inc',
 '-I../lib/cpp/spotx',
 ]
@@ -55,7 +54,7 @@ flags = [
 #
 # Most projects will NOT need to set this to anything; you can just change the
 # 'flags' list of compilation flags.
-compilation_database_folder = ''
+compilation_database_folder = 'Debug'
 
 if os.path.exists( compilation_database_folder ):
   database = ycm_core.CompilationDatabase( compilation_database_folder )
