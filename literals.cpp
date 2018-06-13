@@ -89,5 +89,7 @@ int main(int , char *[])
     auto temp = a + b + c;
     std::cout << a << " + " << b << " + " << c << " = " << temp << " or " << Fahrenheit(temp) << " or " << Kelvin(temp) << std::endl;
 
+    std::cout << "100 + 1C" << 1_C + 100L << std::endl;
+
     return 0;
 }
